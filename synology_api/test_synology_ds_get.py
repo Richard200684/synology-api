@@ -7,7 +7,7 @@ from synology_api import downloadstation
 
 # fl.get_info()
 
-dwn = downloadstation.DownloadStation('192.168.1.16', '5000', 'Lorrenstein', 'LulDeBeh@nger#84', debug=False)
+dwn = downloadstation.DownloadStation('192.168.1.12', '5000', 'Lorrenstein', 'LulDeBeh@nger#84', debug=False)
 
 # dwn.get_info()
 # data = dwn.tasks_list()
