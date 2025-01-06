@@ -7,7 +7,7 @@ from synology_api import downloadstation
 # fl = filestation.FileStation('192.168.1.16', '5000', 'Angela', '@ng3l@_99_vdk')
 # fl.get_info()
 def my_script_function():
-    dwn = downloadstation.DownloadStation('192.168.1.16', '5000', 'Lorrenstein', 'LulDeBeh@nger#84', debug=False)
+    dwn = downloadstation.DownloadStation('', '5000', '', 'LulDeBeh@nger#84', debug=False)
     # dwn.get_info()
     tasks = dwn.tasks_list()
 
